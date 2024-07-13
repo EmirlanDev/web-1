@@ -20,7 +20,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 40px 0;
+  padding: 20px 0;
   margin: 0 auto;
 }
 
@@ -54,11 +54,14 @@ a {
   text-decoration: none;
   color: #fff;
   font-size: 20px;
+  background-color: #0092e0;
+  padding: 10px 30px;
+  box-shadow: 3px 3px 8px #0075b4;
+  border-radius: 10px;
 }
 
 a:hover {
-  color: #0092e0;
-  text-decoration: underline;
+  box-shadow: none;
 }
 
 h2 {
